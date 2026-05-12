@@ -55,5 +55,50 @@ Walmart M5 Forecasting Competition — [Kaggle](https://www.kaggle.com/competiti
 ## Tech Stack
 Python · Pandas · NumPy · Scikit-learn · Matplotlib · Seaborn · Jupyter
 
+## How to Reproduce
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/naveed8606/retail-demand-forecasting.git
+cd retail-demand-forecasting
+```
+
+### 2. Create virtual environment
+```bash
+python -m venv venv
+
+# Windows
+venv\Scripts\activate
+
+# Mac/Linux
+source venv/bin/activate
+```
+
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Download data
+1. Go to [Walmart M5 Competition](https://www.kaggle.com/competitions/m5-forecasting-accuracy/data)
+2. Accept competition rules
+3. Download all files
+4. Place CSVs in `data/raw/`:
+   - `calendar.csv`
+   - `sales_train_validation.csv`
+   - `sales_train_evaluation.csv`
+   - `sell_prices.csv`
+
+### 5. Run notebooks in order
+| Notebook | Description |
+|----------|-------------|
+| `01_EDA.ipynb` | Exploratory Data Analysis |
+| `02_features.ipynb` | Feature Engineering |
+| `03_Models.ipynb` | Model Training |
+| `04_evaluation.ipynb` | Evaluation & Results |
+
+> Update `DATA_PATH` and `PROCESSED` variables in each notebook to match your local path.
+
+
 ## Author
 **Naveed Nihan** 
