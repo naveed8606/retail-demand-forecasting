@@ -102,3 +102,9 @@ pip install -r requirements.txt
 
 ## Author
 **Naveed Nihan** 
+
+-  GitHub: [@naveed8606](https://github.com/naveed8606)
+-  LinkedIn: [Let's Connect](https://www.linkedin.com/in/)
+- Gmail : [naveednihankm2002@gmail.com] (https://mail.google.com/mail/u/0/#inbox)
+
+---
