@@ -23,7 +23,7 @@ application at Dublin City University.
 Gradient Boosting best performer — explains 70% of sales variance.
 
 ## Project Structure
-\```
+```
 retail-demand-forecasting/
 ├── 01_EDA.ipynb              # Exploratory Data Analysis
 ├── 02_features.ipynb         # Feature Engineering
@@ -32,7 +32,7 @@ retail-demand-forecasting/
 ├── reports/                  # Charts & final report
 ├── requirements.txt          # Dependencies
 └── README.md
-\```
+```
 
 ## Dataset
 Walmart M5 Forecasting Competition — [Kaggle](https://www.kaggle.com/competitions/m5-forecasting-accuracy)
